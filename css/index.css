@@ -1,0 +1,67 @@
+*{box-sizing: border-box}
+   
+body{
+  background-color: rgb(145, 156, 151);
+}
+.container{width: 300px;
+           overflow: hidden;
+           margin: 50px auto 0 auto;
+         }
+
+.container span{width: 100%;
+                display: block;
+                text-align: center;
+                font-family: sans-serif;
+                color: #fff;
+                font-size: 25px;
+                background:rgb(76, 104, 92);
+               }
+
+.container .box{float: left;
+                width: 100px;
+                height: 100px;
+                border: 1px dashed #000;
+                transition: all .25s ease-in-out;
+                font-family: sans-serif; 
+                font-size: 85px;
+                text-align: center;
+                line-height: 100px; 
+                cursor: pointer;
+              }
+
+.container .box:hover{background: rgba(10,10,10,0.5);
+                      color: #fff
+                     }
+
+button{background: rgb(76, 104, 92);
+       color: #fff;
+       font-weight: bold;
+        cursor: pointer; 
+        width: 200px;
+        height: 40px; 
+        font-size: 22px;
+        display: block;
+        margin: 10px auto}
+
+.win{background: rgb(13, 180, 138); color: #fff}
+
+#scoreTable{
+  position: absolute;
+  top: 20%;
+  left: 70%
+}
+
+#timer {
+  color: #fff;
+  font-size: 4rem;
+}
+.label {
+  font-size: 2.5rem;
+  padding-left: 0.25rem;
+}
+
+#minutes,#seconds{
+
+  font-size: 2.5rem;
+  color: rgb(243, 239, 239);
+}
